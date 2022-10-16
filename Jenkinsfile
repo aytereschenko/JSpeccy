@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo '---------------------------------------'
-                sh 'printenv'
+                sh 'printenv | sort'
                 echo '---------------------------------------'
             }
         }
